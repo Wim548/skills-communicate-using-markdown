@@ -1,37 +1,300 @@
+# IPT1 · Lernsession 03 · GitHub-Flow & Markdown
 
-<div align="center">
+> **Name:** _Wim_  
+> **Datum:** _14.09.2026_
 
-# 🎉 Congratulations Wim548! 🎉
+## Ziel
 
-<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
+Ich kann die wichtigsten Begriffe rund um **Git**, **GitHub**, den **GitHub-Flow** und **Markdown** kurz erklären und meinen Lernfortschritt mit einem eigenen README dokumentieren.
 
-### 🌟 You've successfully completed the exercise! 🌟
-
-## 🚀 Share Your Success!
-
-**Show off your new skills and inspire others!**
-
-<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Communicate%20using%20Markdown%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FWim548%2Fskills-communicate-using-markdown%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn%0A" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
-</a>
-<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Communicate%20using%20Markdown%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FWim548%2Fskills-communicate-using-markdown%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn%0A" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
-</a>
-<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Communicate%20using%20Markdown%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FWim548%2Fskills-communicate-using-markdown%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn%0A" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
-</a>
-
-### 🎯 What's Next?
-**Keep the momentum going!**
-
-[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/Wim548/skills-communicate-using-markdown/issues/1)
-[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://skills.github.com)
-
-*There's no better way to learn than building things!* 🚀
-
-</div>
+> **Hinweis:** Ersetze die Platzhalter `DEINE ANTWORT` durch deine eigenen kurzen Antworten. Committe die ausgefüllte Datei anschliessend mit einer aussagekräftigen Commit-Nachricht.
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## 1 · Git und GitHub verstehen
+
+### 1. Was ist Git?
+
+**Meine Antwort:** Git ist ein Werkzeug für Versionskontrollen.
+
+### 2. Was ist GitHub?
+
+**Meine Antwort:** GitHub ist eine Plattform, auf welcher mehrere Personen an dem gleichen Projekt arbeiten können.
+
+### 3. Was ist der wichtigste Unterschied zwischen Git und GitHub?
+
+**Meine Antwort:** Git verwaltet Versionen auf dem Computer, GitHub speichert und teilt Git-Projekte online.
+
+### 4. Funktioniert Git auch ohne GitHub?
+
+**Meine Antwort:** Ja
+
+### 5. Was ist ein Repository (Repo)?
+
+**Meine Antwort:** Es ist ein Speicherort für ein Projekt und den Versionen.
+
+### 6. Was ist der `main`-Branch?
+
+**Meine Antwort:** Es ist der Hauptzweig des Projektes und ist meistens auf dem aktuellsten Stand.
+
+### 7. Was ist Markdown?
+
+**Meine Antwort:** Eine Sprache mit welcher man Texte formatieren kann zb. Überschriften, Links und Bilder. 
+
+### 8. Was bedeutet GitHub-Flavoured Markdown (GFM)?
+
+**Meine Antwort:** GFM ist eine erweiterte Version von Markdown, die speziell für GitHub entwickelt wurde.
+
+---
+
+## 2 · GitHub-Flow
+
+### 9. Bringe die Schritte in die richtige Reihenfolge
+
+`Commit · Issue · Pull Request · Branch`
+
+**Meine Antwort:** Branch -> Commit -> Pull Request -> Issue
+
+### 10. Was ist ein Issue?
+
+**Meine Antwort:** Ein Issue ist eine Meldung für Aufgaben, Probleme oder Verbesserungsvorschläge in einem Projekt.
+
+### 11. Was ist ein Branch?
+
+**Meine Antwort:** Eine Abzweigung eines Projektes, die Änderungen werden nicht direkt auf die Main-Branch übertragen.
+
+### 12. Warum arbeitet man für eine Änderung häufig auf einem eigenen Branch?
+
+**Meine Antwort:** Weil es nicht schlimm ist wenn man etwas falsch macht weil es denn Main-Branch nicht beeinflusst.
+
+### 13. Was ist ein Commit?
+
+**Meine Antwort:** Ein Commit speichert eine Änderung am Projekt mit einer Beschreibung.
+
+### 14. Wozu dient eine Commit-Nachricht?
+
+**Meine Antwort:** Um anderen Mitzuteilen was man geändert hat.
+
+### 15. Was ist ein Pull Request?
+
+**Meine Antwort:** Ein Pull Request ist ein Vorschlag, eine Änderungen in einen anderen Branch zu übernehmen.
+
+### 16. Was bedeutet Review?
+
+**Meine Antwort:** Ein Review ist die Überprüfung von Änderungen, bevor sie übernommen werden.
+
+### 17. Was bedeutet Merge?
+
+**Meine Antwort:** Das man ein Side-Branch mit dem Main-Branch vereint.
+
+### 18. Wann sollte ein Pull Request gemergt werden?
+
+**Meine Antwort:** Wenn die Änderungen geprüft wurden und funktionieren.
+
+---
+
+## 3 · Wichtige Git-Begriffe und Befehle
+
+### 19. Was bedeutet Push?
+
+**Meine Antwort:** Push bedeutet, lokale Änderungen zu GitHub hochzuladen.
+
+### 20. Was bedeutet Pull?
+
+**Meine Antwort:** Pull bedeutet, Änderungen von GitHub auf den eigenen Computer herunterzuladen.
+
+### 21. Was ist der Unterschied zwischen Commit und Push?
+
+**Meine Antwort:** Commit speichert Änderungen lokal, Push lädt sie zu GitHub hoch.
+
+### 22. Was ist der Unterschied zwischen Pull und Pull Request?
+
+**Meine Antwort:** Pull lädt Änderungen von GitHub herunter, eine Pull Request schlägt Änderungen zum übernehmen in ein Branch vor.
+
+### 23. Was bedeutet Clone?
+
+**Meine Antwort:** Clone bedeutet, ein Repository auf den eigenen Computer zu kopieren.
+
+### 24. Was macht `git status`?
+
+**Meine Antwort:** Es zeigt den aktuellen Zustand des Projektes.
+
+### 25. Was macht `git add`?
+
+**Meine Antwort:** Es bereitet Änderungen für den Commit vor.
+
+### 26. Was ist die Staging Area?
+
+**Meine Antwort:** Die Staging Area ist der Bereich, in dem Änderungen für den nächsten Commit vorbereitet werden.
+
+### 27. Was macht `git log`?
+
+**Meine Antwort:** Zeigt die bisherigen Commits an.
+
+### 28. Was bedeutet Branch wechseln?
+
+**Meine Antwort:** Branch wechseln bedeutet, zu einem anderen Entwicklungszweig des Projekts zu wechseln.
+
+### 29. Speichert `git add` bereits eine neue Version?
+
+**Meine Antwort:** Nein
+
+### 30. Speichert `git push` deine noch nicht committeten Dateiänderungen?
+
+**Meine Antwort:** Nein.
+
+---
+
+## 4 · GitHub-Flow praktisch erklären
+
+### 31. Erkläre den GitHub-Flow in einem kurzen Satz.
+
+**Meine Antwort:** GitHub-Flow: Branch erstellen → Änderungen machen → Commit → Push → Pull Request → Review → Merge.
+
+### 32. Ordne die Begriffe zu
+
+| Bedeutung | Git-/GitHub-Begriff |
+|---|---|
+| Aufgabe | Issue |
+| Arbeitszweig | Branch |
+| Speicherpunkt | Commit |
+| Änderungsantrag | Pull Request |
+| Zusammenführen | Merge |
+
+### 33. Welche Richtung beschreibt Push?
+
+**Meine Antwort:** Computer -> GitHub
+
+### 34. Welche Richtung beschreibt Pull?
+
+**Meine Antwort:** GitHub -> Computer
+
+### 35. Warum sind mehrere sinnvolle Commits oft besser als ein einziger riesiger Commit?
+
+**Meine Antwort:** Mehrere Commits machen Änderungen übersichtlicher und erleichtern das Finden und Rückgängigmachen von Fehlern.
+
+### 36. Nenne ein Beispiel für eine gute Commit-Nachricht.
+
+```text
+Login-Button hinzugefügt
+```
+
+### 37. Warum ist die Commit-Nachricht `update` wenig hilfreich?
+
+**Meine Antwort:** Weil sie nicht beschreibt, was genau geändert wurde.
+
+---
+
+## 5 · Markdown und README
+
+### 38. Überschrift Ebene 1
+
+Ergänze darunter eine Markdown-Überschrift der Ebene 1:
+
+# Überschrift
+
+### 39. Ungeordnete Liste
+
+Erstelle eine Liste mit mindestens drei Begriffen aus dieser Lernsession:
+
+Git, GitHub, Branch
+
+### 40. Link
+
+Erstelle einen funktionierenden Markdown-Link zu GitHub oder Microsoft Learn:
+
+[GitHub](https://github.com)
+
+### 41. Bild
+
+Schreibe die Markdown-Syntax für ein Bild mit Alternativtext:
+
+```text
+![Text](bild.jpg)
+```
+
+### 42. Inline-Code
+
+Schreibe `git status` als Inline-Code in einem sinnvollen Satz:
+
+Mit git status kann ich den Zustand meines Projektes überprüfen.
+
+### 43. Codeblock
+
+Ergänze mindestens drei Git-Befehle in diesem Codeblock:
+
+```bash
+git status
+git add .
+git push
+```
+
+### 44. Was sollte ein gutes Portfolio-README mindestens leisten?
+
+**Meine Antwort:** Ein gutes Portfolio-README sollte das Projekt kurz erklären, wichtige Informationen zeigen und übersichtlich aufgebaut sein.
+
+---
+
+## 6 · Mein fachlicher Lernnachweis
+
+### Was habe ich heute über Git und GitHub gelernt?
+
+Wie man Branches erstellt und diese comitted.
+
+### Was habe ich heute praktisch umgesetzt?
+
+Ein Branch erstellt und ihn mit dem Main-Branch gemerged.
+
+### Meine konkrete Verbesserung aus dem Selbst- oder Peer-Check
+
+Ich weiss jetzt wie man Branches erstellt
+
+### Mein nächster Portfolio-Schritt
+
+Ein Portfolio erstellen.
+
+---
+
+## 7 · Microsoft Learn · Abschlusskontrolle
+
+- [X] **Einführung in GitHub**: Übung, Modulbewertung und Zusammenfassung abgeschlossen
+- [X] **Effektive Kommunikation auf GitHub mithilfe von Markdown** abgeschlossen
+- [X] Ich habe meinen Lernfortschritt / meine Modulbewertung kontrolliert.
+
+## 8 · Begriffe · deutsche Merkhilfe
+
+Fülle die zweite Spalte mit einer kurzen deutschen Merkhilfe aus.
+
+| Begriff | Deutsche Merkhilfe |
+|---|---|
+| Issue | Aufgabe |
+| Branch | Verzweigung |
+| Commit | Speicherpunkt |
+| Push | Hochladen |
+| Pull | Herunterladen |
+| Pull Request | Änderungsantrag |
+| Review | Überprüfung |
+| Merge | Zusammenführen |
+| Clone | Kopieren |
+| Repository | Projekt Speicherort |
+
+---
+
+## 9 · Selbstcheck
+
+- [X] Ich kann **Git** und **GitHub** unterscheiden.
+- [X] Ich kann **Issue → Branch → Commit → Pull Request → Merge** erklären.
+- [X] Ich kenne den Unterschied zwischen **Commit** und **Push**.
+- [X] Ich kenne den Unterschied zwischen **Pull** und **Pull Request**.
+- [X] Ich kann Überschriften, Listen, Links, Bilder und Codeblöcke in Markdown verwenden.
+- [X] Mein README wird auf GitHub korrekt gerendert.
+- [X] Ich habe mindestens eine konkrete Verbesserung umgesetzt.
+- [X] Ich habe meine Änderung mit einer aussagekräftigen Commit-Nachricht dokumentiert.
+
+## Meine Commit-Nachricht für diese Abgabe
+
+```text
+README.md Lernnachweis
+```
+
 
